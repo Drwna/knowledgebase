@@ -1,0 +1,14 @@
+{
+  "name": "knowledgeBase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "draganet <3417237276@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  }
+}
